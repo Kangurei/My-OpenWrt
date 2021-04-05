@@ -31,18 +31,13 @@ svn co https://github.com/Lienol/openwrt-packages/trunk/net/smartdns            
 
 git clone https://github.com/pymumu/luci-app-smartdns.git -b lede                                        package/luci-app-smartdns
 git clone https://github.com/hyird/Openwrt-AdguardHome.git                                               package/AdGuardHome
-git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git                             package/luci-theme-infinityfreedom
 git clone https://github.com/yangsongli/luci-theme-atmaterial.git                                        package/luci-theme-atmaterial
 git clone https://github.com/jerrykuku/luci-theme-argon.git -b 18.06                                     package/luci-theme-argon-jerrykuku
 git clone https://github.com/tty228/luci-app-serverchan.git                                              package/luci-app-serverchan
 git clone https://github.com/vernesong/OpenClash.git -b master  --depth=1                                package/luci-app-openclash
 git clone https://github.com/tindy2013/openwrt-subconverter.git                                          package/openwrt-subconverter
-git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat.git                                         package/luci-theme-opentomcat
-git clone https://github.com/Leo-Jo-My/luci-theme-opentomato.git                                         package/luci-theme-opentomato
 git clone https://github.com/jerrykuku/luci-app-argon-config.git                                         package/luci-app-argon-config
 git clone https://github.com/jerrykuku/lua-maxminddb.git                                                 package/lua-maxminddb
-git clone https://github.com/jerrykuku/luci-app-vssr.git                                                 package/luci-app-vssr
-git clone https://github.com/hyird/luci-theme-darkmatter.git		                                         package/luci-theme-darkmatter
 git clone https://github.com/garypang13/luci-app-dnsfilter.git                                           package/luci-app-dnsfilter
 git clone https://github.com/CCnut/feed-netkeeper.git -b LUCI-LUA-UCITRACK                               package/feed-netkeeper
 
