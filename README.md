@@ -7,7 +7,7 @@ Build OpenWrt using GitHub Actions
 [Read the details in my blog (in Chinese) | 中文教程](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
 
-[LEDE](https://github.com/coolsnowwolf/lede)[luci-app-ssr-plus](https://github.com/fw876/helloworld)
+[LEDE](https://github.com/coolsnowwolf/lede)&[luci-app-ssr-plus](https://github.com/fw876/helloworld)
 
 ## Usage
 
