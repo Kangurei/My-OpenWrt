@@ -2,12 +2,11 @@
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
 
+[LEDE](https://github.com/coolsnowwolf/lede)&[luci-app-ssr-plus](https://github.com/fw876/helloworld)
+
 Build OpenWrt using GitHub Actions
 
 [Read the details in my blog (in Chinese) | 中文教程](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
-
-
-[LEDE](https://github.com/coolsnowwolf/lede)&[luci-app-ssr-plus](https://github.com/fw876/helloworld)
 
 ## Usage
 
