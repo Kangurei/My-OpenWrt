@@ -21,10 +21,10 @@ sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.de
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 
-git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
-git clone https://github.com/yangsongli/luci-theme-atmaterial.git                                        package/luci-theme-atmaterial
+git clone https://github.com/tty228/luci-app-serverchan.git                                              package/luci-app-serverchan
+git clone https://github.com/immortalwrt/luci/tree/master/themes/luci-theme-material.git                 package/luci-theme-atmaterial
 
 git clone https://github.com/tindy2013/openwrt-subconverter.git                                          package/openwrt-subconverter
 git clone https://github.com/jerrykuku/luci-app-argon-config.git                                         package/luci-app-argon-config
 git clone https://github.com/jerrykuku/lua-maxminddb.git                                                 package/lua-maxminddb
-# git clone https://github.com/garypang13/luci-app-dnsfilter.git package/luci-app-dnsfilter
+# git clone https://github.com/garypang13/luci-app-dnsfilter.git                                         package/luci-app-dnsfilter
