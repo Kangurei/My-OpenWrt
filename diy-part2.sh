@@ -14,7 +14,8 @@
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 
 
-# git clone https://github.com/linkease/istore.git package/istore
+git clone https://github.com/linkease/istore.git package/istore
+
 #sirpdboy
 # git clone https://github.com/sirpdboy/sirpdboy-package.git package/sirpdboy-package
 git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/luci-theme-opentopd
