@@ -25,7 +25,8 @@ git clone https://github.com/sirpdboy/luci-app-netdata.git package/luci-app-netd
 git clone https://github.com/sirpdboy/luci-app-poweroffdevice.git package/luci-app-poweroffdevice
 git clone https://github.com/sirpdboy/luci-app-autotimeset.git package/luci-app-autotimeset
 
-
+#passwall
+git clone https://github.com/xiaorouji/openwrt-passwall.git -b luci package/luci-app-passwall
 
 # themes添加（svn co 命令意思：指定版本如https://github）
 rm -rf package/lean/luci-theme-argon
