@@ -20,6 +20,8 @@
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
+sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
+
 
 git clone https://github.com/tty228/luci-app-serverchan.git                                              package/luci-app-serverchan
 git clone https://github.com/jerrykuku/luci-app-argon-config.git                                         package/luci-app-argon-config
